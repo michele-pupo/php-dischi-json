@@ -1,15 +1,6 @@
 #navbar{
     height: 120px;
-    width: 100%;
     background-color: #06131f;
-}
-
-#logo{
-    height: 120px;
-}
-
-#logo img{
-    height: 100%;
 }
 
 #my_container_navbar{
@@ -17,9 +8,17 @@
     margin: 0 auto;
 }
 
+#logo{
+    height: 120px;
+}
+
+#my_logo{
+    height: 100%;
+}
+
 #my_container_album{
     background-color: #1d2d3c;
-    height: 100vh;
+    height: calc(100vh - 120px);
     padding-top: 50px;
 }
 
@@ -39,7 +38,7 @@
     padding: 70px;
 }
 
-img{
+#my_album img {
     width: 100%;
     cursor: pointer;
 }
@@ -49,25 +48,37 @@ li{
 }
 
 #album-details {
-    width: 1000px;
-    height: 1000px;
+    width: 1300px;
+    height: 1300px;
+    border-radius: 50px;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
-    background-color: rgba(17,32,48,0.8); 
+    background-color: rgba(17,32,48,0.9); 
     padding: 20px;
     color: white;
 }
 
+#album_image_spash{
+    width: 800px;
+    margin: 0 auto;
+}
+
+#album_image_spash img{
+    width: 100%;
+    padding-top: 100px;
+}
+
 #close-button {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 40px;
     background-color: transparent;
-    border: transparent;
+    padding: 5px 15px;
+    border: 3px solid white;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     cursor: pointer;
 }

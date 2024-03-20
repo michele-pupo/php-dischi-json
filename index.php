@@ -20,14 +20,17 @@
 <body class="bg-dark text-white">
 
     <div id="app">
+        <!-- navbar con logo -->
         <div id="navbar">
             <div id="my_container_navbar">
                 <div class="py-3 d-flex" id="logo">
-                    <img src="img/logo.svg" alt="">
+                    <img id="my_logo" src="img/logo.png" alt="">
                 </div>
             </div>
         </div>
+        <!-- fine navbar con logo -->
 
+        <!-- sezione per mostrare solo la cover dell'album -->
         <div id="my_container_album">
             <div id="my_album_section">
                 <ul id="my_list_album" class="d-flex flex-wrap p-0">
@@ -37,19 +40,23 @@
                 </ul>
             </div>
         </div>
+        <!-- fine sezione per mostrare solo la cover dell'album -->
 
         <!-- sezione per mostrare i dettagli dell'album selezionato -->
         <div v-if="selectedAlbum" id="album-details">
             <button @click="closeAlbumDetails" id="close-button" class="fw-bold display-3">X</button>
-            <h2>{{ selectedAlbum.title }}</h2>
-            <p>Author: {{ selectedAlbum.author }}</p>
-            <p>Year: {{ selectedAlbum.year }}</p>
-            <p>Genre: {{ selectedAlbum.genre }}</p>
-            <img :src="selectedAlbum.poster" alt="selectedAlbum.author">
+            <div id="album_image_spash">
+                <img :src="selectedAlbum.poster" alt="selectedAlbum.author">
+            </div>
+            <div class="d-flex flex-column align-items-center pt-5 display-5">
+                <h2 class="display-2 fw-bold">{{ selectedAlbum.title }}</h2>
+                <p>Author: {{ selectedAlbum.author }}</p>
+                <p>Year: {{ selectedAlbum.year }}</p>
+                <p>Genre: {{ selectedAlbum.genre }}</p>
+            </div>
         </div>
-        
+        <!-- fine sezione per mostrare i dettagli dell'album selezionato -->
     </div>
-    
 
     <script src="./js/main.js"></script>
 

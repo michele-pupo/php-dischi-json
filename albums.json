@@ -1,10 +1,10 @@
 
 [
     {
-        "title": "New Jersey",
-        "author": "Bon Jovi",
-        "year": 1988,
-        "poster": "https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg",
+        "title": "Metropolis Pt. 2",
+        "author": "Dream Theater",
+        "year": 1999,
+        "poster": "https://i.discogs.com/8hNrwPVUU5iHy04bTb3pskoOW2RFZy0nCdW5LhX-cYk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMTA3/NDQtMTQ5NDM1NTk4/Mi0xMzI1LmpwZWc.jpeg",
         "genre": "Rock"
     },
     {
@@ -15,18 +15,18 @@
         "genre": "Pop"
     },
     {
-        "title": "Ten\"s Summoner\"s Tales",
-        "author": "Sting",
-        "year": 1993,
-        "poster": "https://images-na.ssl-images-amazon.com/images/I/411BQR6BHRL.jpg",
-        "genre": "Pop"
+        "title": "American Idiot",
+        "author": "Green Day",
+        "year": 2004,
+        "poster": "https://m.media-amazon.com/images/I/71Z0rLIvpuL._UF1000,1000_QL80_.jpg",
+        "genre": "Rock alternativo"
     },
     {
-        "title": "Steve Gadd band",
-        "author": "Steve Gadd Band",
-        "year": 2018,
-        "poster": "https://m.media-amazon.com/images/I/81UtLzBDoEL._SS500_.jpg",
-        "genre": "Jazz"
+        "title": "Minutes to Midnight",
+        "author": "Linkin Park",
+        "year": 2007,
+        "poster": "https://i.discogs.com/P6rqfF1MmH2pVGHxNy6YCsX-OtCcDgNGbj3ZtdE90hI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4OTYw/NDUtMTI2NDg0NzAz/MS5qcGVn.jpeg",
+        "genre": "Alternative rock"
     },
     {
         "title": "Brave new World",
@@ -36,11 +36,11 @@
         "genre": "Metal"
     },
     {
-        "title": "One more car, one more rider",
-        "author": "Eric Clapton",
-        "year": 2002,
-        "poster": "https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg",
-        "genre": "Rock"
+        "title": "The Wall",
+        "author": "Pink Floyd",
+        "year": 1979,
+        "poster": "https://i.scdn.co/image/ab67616d0000b2735d48e2f56d691f9a4e4b0bdf",
+        "genre": "Progressive Rock"
     }
 ]
 
