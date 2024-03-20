@@ -20,13 +20,24 @@
 <body class="bg-dark text-white">
 
     <div id="app">
+        <div id="navbar">
+            <div id="my_container_navbar">
+                <div class="py-3 d-flex" id="logo">
+                    <img src="img/logo.svg" alt="">
+                </div>
+            </div>
+        </div>
 
-        <ul class="d-flex flex-wrap">
-            <li v-for= "(album, index) in albums">
-                <img :src="album.poster" alt="album.author">
-            </li>
-        </ul>
-
+        <div id="my_container_album">
+            <div id="my_album_section">
+                <ul id="my_list_album" class="d-flex flex-wrap p-0">
+                    <li id="my_album" v-for= "(album, index) in albums">
+                        <img :src="album.poster" alt="album.author">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
     </div>
     
 

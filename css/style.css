@@ -1,0 +1,48 @@
+#navbar{
+    height: 120px;
+    width: 100%;
+    background-color: #06131f;
+}
+
+#logo{
+    height: 120px;
+}
+
+#logo img{
+    height: 100%;
+}
+
+#my_container_navbar{
+    width: 1700px;
+    margin: 0 auto;
+}
+
+#my_container_album{
+    background-color: #1d2d3c;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+#my_album_section{
+    width: 2100px;
+    margin: 0 auto;
+}
+
+#my_list_album{
+    gap: 90px;
+}
+
+#my_album{
+    width: calc(100% / 3 - 90px / 3 * 2);
+    background-color: #112030;
+    border-radius: 20px;
+    padding: 70px;
+}
+
+img{
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
