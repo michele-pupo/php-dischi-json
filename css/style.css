@@ -41,8 +41,33 @@
 
 img{
     width: 100%;
+    cursor: pointer;
 }
 
 li{
     list-style-type: none;
+}
+
+#album-details {
+    width: 1000px;
+    height: 1000px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: rgba(17,32,48,0.8); 
+    padding: 20px;
+    color: white;
+}
+
+#close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
 }

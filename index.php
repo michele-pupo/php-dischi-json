@@ -31,11 +31,21 @@
         <div id="my_container_album">
             <div id="my_album_section">
                 <ul id="my_list_album" class="d-flex flex-wrap p-0">
-                    <li id="my_album" v-for= "(album, index) in albums">
+                    <li id="my_album" v-for= "(album, index) in albums" :key="index" @click="showAlbumDetails(album)">
                         <img :src="album.poster" alt="album.author">
                     </li>
                 </ul>
             </div>
+        </div>
+
+        <!-- sezione per mostrare i dettagli dell'album selezionato -->
+        <div v-if="selectedAlbum" id="album-details">
+            <button @click="closeAlbumDetails" id="close-button" class="fw-bold display-3">X</button>
+            <h2>{{ selectedAlbum.title }}</h2>
+            <p>Author: {{ selectedAlbum.author }}</p>
+            <p>Year: {{ selectedAlbum.year }}</p>
+            <p>Genre: {{ selectedAlbum.genre }}</p>
+            <img :src="selectedAlbum.poster" alt="selectedAlbum.author">
         </div>
         
     </div>
